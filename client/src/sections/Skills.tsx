@@ -2,73 +2,38 @@ const skillCategories = [
   {
     title: "Backend Architecture",
     description:
-      "Designing scalable, secure, and high-performance server-side systems.",
-    skills: [
-      "Java 8+",
-      "Spring Boot",
-      "REST APIs",
-      "Microservices",
-      "Secure Coding",
-    ],
+      "Designing scalable, secure, and high-performance server-side systems for enterprise and SaaS platforms.",
+    skills: ["Java 8+", "Spring Boot", "REST APIs", "Microservices", "Secure Coding", "Design Patterns"],
   },
   {
     title: "Frontend Systems",
     description:
-      "Building responsive, maintainable, and performance-optimized user interfaces.",
-    skills: [
-      "React.js",
-      "TypeScript",
-      "API Integration",
-      "Modern UI Architecture",
-    ],
+      "Building maintainable, high-performance user interfaces with React and TypeScript for global SaaS applications.",
+    skills: ["React.js", "TypeScript", "API Integration", "Component Architecture", "State Management"],
   },
   {
     title: "Cloud & Infrastructure",
     description:
-      "Deploying and operating resilient cloud-native applications.",
-    skills: [
-      "AWS (EC2, S3, Route53)",
-      "Docker",
-      "CI/CD Pipelines",
-      "Environment Management",
-    ],
+      "Deploying and operating resilient AWS-hosted applications with CI/CD, monitoring, and scalable workflows.",
+    skills: ["AWS (EC2, S3, Route53)", "Docker", "CI/CD Pipelines", "Environment Management", "Observability"],
   },
   {
-    title: "Testing & Automation",
+    title: "AI & Automation",
     description:
-      "Ensuring reliability through automated validation and quality systems.",
-    skills: [
-      "JUnit",
-      "Mockito",
-      "Selenium",
-      "Playwright",
-      "API Testing",
-    ],
+      "Leveraging AI and LLMs to accelerate software development, automate testing, and enhance code quality.",
+    skills: ["Python", "Flask", "OpenAI API", "AI Code Review", "AI Test Generation", "LLM Workflows", "Jenkins"],
   },
   {
-    title: "Data & Persistence",
+    title: "Testing & Quality",
     description:
-      "Structuring and optimizing relational and NoSQL storage systems.",
-    skills: [
-      "MySQL",
-      "PostgreSQL",
-      "MongoDB",
-      "Firebase",
-    ],
+      "Ensuring system reliability and code quality through automated validation, unit testing, and regression coverage.",
+    skills: ["JUnit", "Mockito", "Selenium", "Playwright", "API Testing"],
   },
   {
-    title: "AI & Engineering Tooling",
+    title: "Databases & Data Systems",
     description:
-      "Leveraging AI systems and modern tooling to accelerate engineering workflows.",
-    skills: [
-      "Python",
-      "Flask",
-      "OpenAI API",
-      "Git",
-      "Maven",
-      "Gradle",
-      "Jenkins",
-    ],
+      "Designing and optimizing relational and NoSQL storage systems for performance and scalability.",
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
   },
 ];
 
@@ -80,12 +45,13 @@ const Skills = () => {
         {/* SECTION HEADER */}
         <div className="max-w-2xl">
           <h2 className="text-4xl font-semibold text-gray-900">
-            Engineering Capabilities
+            Core Capabilities
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-            A structured foundation across backend systems, cloud infrastructure,
-            automation frameworks, and AI-driven engineering workflows.
+            A structured engineering foundation across backend systems,
+            distributed architectures, cloud infrastructure,
+            and AI-driven development workflows.
           </p>
         </div>
 

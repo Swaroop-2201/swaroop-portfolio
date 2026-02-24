@@ -12,8 +12,9 @@ const Experience = () => {
           <div className="mt-6 w-16 h-px bg-gray-300 mx-auto"></div>
 
           <p className="mt-8 text-gray-600 max-w-2xl mx-auto leading-relaxed text-lg">
-            Engineering high-performance systems for enterprise environments,
-            with a focus on scalability, architectural clarity, and operational excellence.
+            Delivering enterprise-grade software solutions in high-availability
+            environments, supporting international aviation and large-scale
+            operational systems.
           </p>
         </div>
 
@@ -31,41 +32,35 @@ const Experience = () => {
             </div>
 
             <p className="mt-4 md:mt-0 text-gray-500 text-sm tracking-wide">
-              March 2024 — Present
+              March 2024 - Present
             </p>
           </div>
 
           <div className="mt-12 space-y-6 text-gray-700 leading-relaxed text-lg">
 
-            <p>
-              Architected and delivered scalable full-stack solutions across
-              enterprise platforms, strengthening system performance,
-              modularity, and long-term maintainability.
-            </p>
+            <p className="mt-12 space-y-6 text-gray-700 leading-relaxed text-lg">
 
-            <p>
-              Engineered secure RESTful services using Java and Spring Boot,
-              supporting production-grade deployments with strict reliability
-              and compliance standards.
-            </p>
+              <p>
+                Architected and deployed **AI-powered full-stack solutions** across enterprise SaaS and aviation systems, including Lufthansa Group and Austrian Airlines.
+              </p>
 
-            <p>
-              Designed AI-driven internal automation tools to optimize code
-              quality workflows, accelerating review cycles and enhancing
-              CI/CD maturity.
-            </p>
+              <p>
+                Built **LLM-assisted code review and test generation platforms** reducing review effort by 40% and test creation time by 60%, fully hosted on AWS with monitoring and CI/CD integration.
+              </p>
 
-            <p>
-              Contributed to mission-critical aviation systems serving Lufthansa
-              Group and Austrian Airlines, ensuring operational stability and
-              SLA adherence in high-availability environments.
-            </p>
+              <p>
+                Engineered **secure Spring Boot microservices** and **25+ reusable React components** for SaaS platforms, improving reliability, frontend performance, and feature delivery speed.
+              </p>
 
-            <p>
-              Strengthened observability and production monitoring practices,
-              reducing incident response time and improving system resilience.
-            </p>
+              <p>
+                Maintained **production-grade environments**, implemented logging, observability, and incident response to meet strict SLA commitments.
+              </p>
 
+              <p>
+                Continuously explore emerging AI developer tools and LLM workflows to prototype solutions, optimize code quality, and accelerate delivery pipelines.
+              </p>
+
+            </p>
           </div>
 
         </div>
