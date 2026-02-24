@@ -41,7 +41,7 @@ const Experience = () => {
             <p className="mt-12 space-y-6 text-gray-700 leading-relaxed text-lg">
 
               <p>
-                Architected and deployed <b>AI-powered full-stack solutions</b> across enterprise SaaS and aviation systems, including Lufthansa Group and Austrian Airlines.
+                Architected and deployed <b>AI-powered full-stack solutions</b> across enterprise SaaS and aviation systems, including <b>Lufthansa Group and Austrian Airlines</b>.
               </p>
 
               <p>
