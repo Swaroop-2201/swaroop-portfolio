@@ -41,19 +41,19 @@ const Experience = () => {
             <p className="mt-12 space-y-6 text-gray-700 leading-relaxed text-lg">
 
               <p>
-                Architected and deployed **AI-powered full-stack solutions** across enterprise SaaS and aviation systems, including Lufthansa Group and Austrian Airlines.
+                Architected and deployed <b>AI-powered full-stack solutions</b> across enterprise SaaS and aviation systems, including Lufthansa Group and Austrian Airlines.
               </p>
 
               <p>
-                Built **LLM-assisted code review and test generation platforms** reducing review effort by 40% and test creation time by 60%, fully hosted on AWS with monitoring and CI/CD integration.
+                Built <b>LLM-assisted code review and test generation platforms</b> reducing review effort by 40% and test creation time by 60%, fully hosted on AWS with monitoring and CI/CD integration.
               </p>
 
               <p>
-                Engineered **secure Spring Boot microservices** and **25+ reusable React components** for SaaS platforms, improving reliability, frontend performance, and feature delivery speed.
+                Engineered <b>secure Spring Boot microservices</b> and <b>25+ reusable React components</b> for SaaS platforms, improving reliability, frontend performance, and feature delivery speed.
               </p>
 
               <p>
-                Maintained **production-grade environments**, implemented logging, observability, and incident response to meet strict SLA commitments.
+                Maintained <b>production-grade environments</b>, implemented logging, observability, and incident response to meet strict SLA commitments.
               </p>
 
               <p>
