@@ -1,12 +1,21 @@
 const workItems = [
   {
-    title: "Law Firm Website",
+    title: "MDSA Legal Nest LLP Website",
     industry: "Legal / Professional Services",
     description:
-      "Developed and deployed a fully responsive, client-facing website for a law firm using AI-assisted development workflows. Leveraged LLMs to generate content and streamline UI/UX design.",
-    tech: "React · TypeScript · AI Content Generation",
-    link: "https://swaroop-2201.github.io/mdsa-llp/",
+      "Designed and deployed a responsive corporate website for a law firm, delivering a professional digital presence with intuitive navigation and a seamless user experience.",
+    tech: "React · TypeScript",
+    link: "https://mdsalegalnestllp.in/",
   },
+  {
+    title: "UNBOUND SPORTS",
+    industry: "Sports Retail",
+    description:
+      "Built and launched a responsive website for a sports retailer, showcasing products through a modern interface and optimizing the customer browsing experience.",
+    tech: "React · TypeScript",
+    link: "https://unboundsports.in/",
+  },
+
 ];
 const SelectedWork = () => {
   return (
@@ -58,19 +67,22 @@ const SelectedWork = () => {
                   className="group relative text-gray-900 font-medium"
                 >
                   Visit Live Site →
+                   {item.link}
 
                   <span className="absolute left-0 -bottom-1 h-[1px] w-full bg-gray-900 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
                 </a>
               </div>
+
+              
 
             </div>
           ))}
         </div>
 
         {/* Ongoing Work Line */}
-        <p className="mt-28 text-center text-sm text-gray-500">
+        {/* <p className="mt-28 text-center text-sm text-gray-500">
           Additional client projects currently in development.
-        </p>
+        </p> */}
 
       </div>
     </section>
